@@ -30,7 +30,7 @@ header .navbar-default {
 
 header .navbar-default .navbar-nav a {
   color: #414042;
-  padding: 5px 8px;
+  padding: 7px 8px;
 }
 
 header .navbar-default .navbar-nav a:hover {
@@ -53,11 +53,9 @@ header .navbar-default .navbar-nav .active a:hover {
 
 /**  Navbar Brand **/
 
-header .navbar-brand {
-  background: url(../images/wisdompetlogo.svg);
-  background-repeat: no-repeat;
-  background-position: 15px 0;
-  height: auto;
+header .navbar-brand img {
+  margin-top: -22px;
+
 
 }
 
@@ -88,7 +86,7 @@ header .navbar-default .navbar-toggle .icon-bar {
 @media only screen
 and (max-width: 768px) {
   header .navbar-collapse.in {
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(0,0,0, .1);
   }
 }
 
