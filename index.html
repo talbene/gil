@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="he" dir="rtl">
 
 <head>
   <meta charset="UTF-8">
@@ -248,6 +248,21 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src=”jquery.mobile.custom.min.js”></script>  
+
 <script src="js/myscript.js"></script>
+
+ <script>
+    $(document).ready(function() {
+        $("#featured").swiperight(function() {
+          $("#featured").carousel('prev');
+        });
+        $("#featured").swipeleft(function() {
+          $("#featured").carousel('next');
+        });
+      
+    });
+        
+    </script>
 </body>
 </html>
